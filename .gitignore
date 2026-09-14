@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.env.*
+credentials/
+secrets/
+logs/
+*.log
+.openai/
+openai/
+.codex/
+.chatgpt/
+AGENTS.md
+CODEX_TASK.md
+*.openai-download-*
