@@ -3,7 +3,7 @@
 This repository documents a software-service-construction proof of concept for
 moving an operational ELK workload from an on-premises environment to Elastic
 Cloud on AWS. The project included configuring a hosted deployment and building
-a Kibana dashboard to summarize log activity.
+a Kibana dashboard to summarize sample document activity.
 
 ## Business problem
 
@@ -14,9 +14,9 @@ work.
 
 ## Proof-of-concept scope
 
-- Configure an Elastic Cloud deployment in AWS `us-east-1`.
+- Configure an Elastic Cloud deployment in AWS `us-east-2`.
 - Access Kibana through the managed deployment.
-- Ingest representative log data.
+- Ingest Kibana sample documentation data.
 - Build a dashboard that summarizes operational activity.
 - Compare a managed SaaS approach with continued on-premises maintenance.
 
@@ -55,3 +55,7 @@ Elastic Cloud, Elasticsearch, Kibana, and AWS.
 ## Author
 
 [Justin Spratt](https://github.com/justinspratt07)
+
+## Original evidence and scope
+
+The CS468 Unit 1 assignment dated February 14, 2026 contains three original screenshots: a healthy Elastic Cloud deployment in AWS Ohio (us-east-2), Discover showing 1,173 sample documents, and a Support Helpdesk dashboard. The data shown is Kibana sample Elasticsearch documentation, not a production log feed. The enterprise scenario is coursework, not employment history. No measured savings, live production migration, or currently active deployment are claimed. Historical screenshots establish the original proof of concept; current cloud availability was not tested.

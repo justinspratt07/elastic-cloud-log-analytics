@@ -2,27 +2,28 @@
 
 ## 1. Managed deployment
 
-The proof of concept used Elastic Cloud hosted in the AWS `us-east-1` region.
+The proof of concept used Elastic Cloud hosted in the AWS `us-east-2` region.
 The managed service supplied access to Elasticsearch and Kibana without
 requiring local installation or server provisioning.
 
 ## 2. Data ingestion
 
-Representative log records were added to the deployment and indexed in
-Elasticsearch. Before visualization, the data view and timestamp field were
-checked so Kibana could filter events by time.
+Kibana sample documentation records were added to the deployment and indexed in
+Elasticsearch. The original Discover screenshot shows 1,173 indexed documents.
+These are sample documentation records, not a production log stream.
 
 ## 3. Dashboard construction
 
 The Kibana dashboard was designed to provide a concise operational summary.
 The workflow included selecting the relevant data view, creating visualizations,
-arranging them into a dashboard, and confirming that filters affected the
-displayed data consistently.
+arranging them into a dashboard with a record count and tag/category summaries.
 
 ## 4. Validation
 
-The deployment and dashboard were reviewed for accessibility, data visibility,
-filter behavior, and usefulness to a technical operations audience.
+The original assignment and three embedded screenshots substantiate deployment
+health, indexed-document visibility, and dashboard construction. The current
+portfolio review did not recreate the deployment or test live filtering,
+accessibility, access controls, retention, or production ingestion.
 
 ## Security note
 
